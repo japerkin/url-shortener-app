@@ -1,0 +1,23 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        /*{
+            "label": "Create application",
+            "type": "shell",
+            "command": "rails new . -G --skip -d postgresql && bundle install && cp ../.vscode/database.yml config && rake db:create"
+        },*/
+        /*
+        {
+            "label": "Delete test-project",
+            "type": "shell",
+            "command": "cd test-project && rm -rf * && rm -f .ruby-version"
+        },*/
+        {
+            "label": "Run application",
+            "type": "shell",
+            "command": "bundle install"
+        }
+    ], 
+}
